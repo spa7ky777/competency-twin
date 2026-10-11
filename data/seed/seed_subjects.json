@@ -1,0 +1,2835 @@
+{
+  "users": [
+    {
+      "name": "Demo Student",
+      "email": "student@demo.local",
+      "role": "student"
+    },
+    {
+      "name": "Demo Trainer",
+      "email": "trainer@demo.local",
+      "role": "trainer"
+    },
+    {
+      "name": "Demo Student 2",
+      "email": "student2@demo.local",
+      "role": "student"
+    }
+  ],
+  "subjects": [
+    {
+      "code": "ADA",
+      "name": "Analysis and Design of Algorithms",
+      "description": "Prototype academic domain: Analysis and Design of Algorithms. This curriculum is editable in the seed JSON or trainer UI.",
+      "order_index": 1,
+      "is_active": true,
+      "units": [
+        {
+          "title": "Unit 1",
+          "description": "Analysis and Design of Algorithms \u2014 Unit 1",
+          "order_index": 1,
+          "topics": [
+            {
+              "title": "Algorithm Analysis",
+              "description": "Prototype topic: Algorithm Analysis",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Algorithm Analysis",
+                  "description": "Explain the core concepts, terminology, and purpose of Algorithm Analysis.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Algorithm Analysis",
+                  "description": "Apply Algorithm Analysis to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Asymptotic Notations",
+              "description": "Prototype topic: Asymptotic Notations",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Asymptotic Notations",
+                  "description": "Explain the core concepts, terminology, and purpose of Asymptotic Notations.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Asymptotic Notations",
+                  "description": "Apply Asymptotic Notations to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Time and Space Complexity",
+              "description": "Prototype topic: Time and Space Complexity",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Time and Space Complexity",
+                  "description": "Explain the core concepts, terminology, and purpose of Time and Space Complexity.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Time and Space Complexity",
+                  "description": "Apply Time and Space Complexity to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Recurrence Relations",
+              "description": "Prototype topic: Recurrence Relations",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Recurrence Relations",
+                  "description": "Explain the core concepts, terminology, and purpose of Recurrence Relations.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Recurrence Relations",
+                  "description": "Apply Recurrence Relations to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 2",
+          "description": "Analysis and Design of Algorithms \u2014 Unit 2",
+          "order_index": 2,
+          "topics": [
+            {
+              "title": "Divide and Conquer",
+              "description": "Prototype topic: Divide and Conquer",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Divide and Conquer",
+                  "description": "Explain the core concepts, terminology, and purpose of Divide and Conquer.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Divide and Conquer",
+                  "description": "Apply Divide and Conquer to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Binary Search",
+              "description": "Prototype topic: Binary Search",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Binary Search",
+                  "description": "Explain the core concepts, terminology, and purpose of Binary Search.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Binary Search",
+                  "description": "Apply Binary Search to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Merge Sort",
+              "description": "Prototype topic: Merge Sort",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Merge Sort",
+                  "description": "Explain the core concepts, terminology, and purpose of Merge Sort.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Merge Sort",
+                  "description": "Apply Merge Sort to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Quick Sort",
+              "description": "Prototype topic: Quick Sort",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Quick Sort",
+                  "description": "Explain the core concepts, terminology, and purpose of Quick Sort.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Quick Sort",
+                  "description": "Apply Quick Sort to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 3",
+          "description": "Analysis and Design of Algorithms \u2014 Unit 3",
+          "order_index": 3,
+          "topics": [
+            {
+              "title": "Greedy Algorithms",
+              "description": "Prototype topic: Greedy Algorithms",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Greedy Algorithms",
+                  "description": "Explain the core concepts, terminology, and purpose of Greedy Algorithms.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Greedy Algorithms",
+                  "description": "Apply Greedy Algorithms to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Minimum Spanning Trees",
+              "description": "Prototype topic: Minimum Spanning Trees",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Minimum Spanning Trees",
+                  "description": "Explain the core concepts, terminology, and purpose of Minimum Spanning Trees.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Minimum Spanning Trees",
+                  "description": "Apply Minimum Spanning Trees to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Prim's Algorithm",
+              "description": "Prototype topic: Prim's Algorithm",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Prim's Algorithm",
+                  "description": "Explain the core concepts, terminology, and purpose of Prim's Algorithm.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Prim's Algorithm",
+                  "description": "Apply Prim's Algorithm to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Kruskal's Algorithm",
+              "description": "Prototype topic: Kruskal's Algorithm",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Kruskal's Algorithm",
+                  "description": "Explain the core concepts, terminology, and purpose of Kruskal's Algorithm.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Kruskal's Algorithm",
+                  "description": "Apply Kruskal's Algorithm to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Huffman Coding",
+              "description": "Prototype topic: Huffman Coding",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Huffman Coding",
+                  "description": "Explain the core concepts, terminology, and purpose of Huffman Coding.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Huffman Coding",
+                  "description": "Apply Huffman Coding to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 4",
+          "description": "Analysis and Design of Algorithms \u2014 Unit 4",
+          "order_index": 4,
+          "topics": [
+            {
+              "title": "Dynamic Programming",
+              "description": "Prototype topic: Dynamic Programming",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Dynamic Programming",
+                  "description": "Explain the core concepts, terminology, and purpose of Dynamic Programming.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Dynamic Programming",
+                  "description": "Apply Dynamic Programming to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "0/1 Knapsack",
+              "description": "Prototype topic: 0/1 Knapsack",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain 0/1 Knapsack",
+                  "description": "Explain the core concepts, terminology, and purpose of 0/1 Knapsack.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply 0/1 Knapsack",
+                  "description": "Apply 0/1 Knapsack to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Longest Common Subsequence",
+              "description": "Prototype topic: Longest Common Subsequence",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Longest Common Subsequence",
+                  "description": "Explain the core concepts, terminology, and purpose of Longest Common Subsequence.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Longest Common Subsequence",
+                  "description": "Apply Longest Common Subsequence to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Matrix Chain Multiplication",
+              "description": "Prototype topic: Matrix Chain Multiplication",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Matrix Chain Multiplication",
+                  "description": "Explain the core concepts, terminology, and purpose of Matrix Chain Multiplication.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Matrix Chain Multiplication",
+                  "description": "Apply Matrix Chain Multiplication to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 5",
+          "description": "Analysis and Design of Algorithms \u2014 Unit 5",
+          "order_index": 5,
+          "topics": [
+            {
+              "title": "Graph Algorithms",
+              "description": "Prototype topic: Graph Algorithms",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Graph Algorithms",
+                  "description": "Explain the core concepts, terminology, and purpose of Graph Algorithms.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Graph Algorithms",
+                  "description": "Apply Graph Algorithms to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "BFS and DFS",
+              "description": "Prototype topic: BFS and DFS",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain BFS and DFS",
+                  "description": "Explain the core concepts, terminology, and purpose of BFS and DFS.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply BFS and DFS",
+                  "description": "Apply BFS and DFS to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Shortest Path Algorithms",
+              "description": "Prototype topic: Shortest Path Algorithms",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Shortest Path Algorithms",
+                  "description": "Explain the core concepts, terminology, and purpose of Shortest Path Algorithms.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Shortest Path Algorithms",
+                  "description": "Apply Shortest Path Algorithms to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Dijkstra's Algorithm",
+              "description": "Prototype topic: Dijkstra's Algorithm",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Dijkstra's Algorithm",
+                  "description": "Explain the core concepts, terminology, and purpose of Dijkstra's Algorithm.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Dijkstra's Algorithm",
+                  "description": "Apply Dijkstra's Algorithm to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Backtracking",
+              "description": "Prototype topic: Backtracking",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Backtracking",
+                  "description": "Explain the core concepts, terminology, and purpose of Backtracking.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Backtracking",
+                  "description": "Apply Backtracking to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DBMS",
+      "name": "Database Management Systems",
+      "description": "Prototype academic domain: Database Management Systems. This curriculum is editable in the seed JSON or trainer UI.",
+      "order_index": 2,
+      "is_active": true,
+      "units": [
+        {
+          "title": "Unit 1",
+          "description": "Database Management Systems \u2014 Unit 1",
+          "order_index": 1,
+          "topics": [
+            {
+              "title": "Database Fundamentals",
+              "description": "Prototype topic: Database Fundamentals",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Database Fundamentals",
+                  "description": "Explain the core concepts, terminology, and purpose of Database Fundamentals.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Database Fundamentals",
+                  "description": "Apply Database Fundamentals to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "DBMS Architecture",
+              "description": "Prototype topic: DBMS Architecture",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain DBMS Architecture",
+                  "description": "Explain the core concepts, terminology, and purpose of DBMS Architecture.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply DBMS Architecture",
+                  "description": "Apply DBMS Architecture to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Data Models",
+              "description": "Prototype topic: Data Models",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Data Models",
+                  "description": "Explain the core concepts, terminology, and purpose of Data Models.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Data Models",
+                  "description": "Apply Data Models to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "ER Model",
+              "description": "Prototype topic: ER Model",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain ER Model",
+                  "description": "Explain the core concepts, terminology, and purpose of ER Model.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply ER Model",
+                  "description": "Apply ER Model to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Relational Model",
+              "description": "Prototype topic: Relational Model",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Relational Model",
+                  "description": "Explain the core concepts, terminology, and purpose of Relational Model.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Relational Model",
+                  "description": "Apply Relational Model to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 2",
+          "description": "Database Management Systems \u2014 Unit 2",
+          "order_index": 2,
+          "topics": [
+            {
+              "title": "Relational Algebra",
+              "description": "Prototype topic: Relational Algebra",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Relational Algebra",
+                  "description": "Explain the core concepts, terminology, and purpose of Relational Algebra.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Relational Algebra",
+                  "description": "Apply Relational Algebra to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "SQL Basics",
+              "description": "Prototype topic: SQL Basics",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain SQL Basics",
+                  "description": "Explain the core concepts, terminology, and purpose of SQL Basics.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply SQL Basics",
+                  "description": "Apply SQL Basics to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "SQL Queries",
+              "description": "Prototype topic: SQL Queries",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain SQL Queries",
+                  "description": "Explain the core concepts, terminology, and purpose of SQL Queries.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply SQL Queries",
+                  "description": "Apply SQL Queries to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Joins",
+              "description": "Prototype topic: Joins",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Joins",
+                  "description": "Explain the core concepts, terminology, and purpose of Joins.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Joins",
+                  "description": "Apply Joins to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Aggregate Functions",
+              "description": "Prototype topic: Aggregate Functions",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Aggregate Functions",
+                  "description": "Explain the core concepts, terminology, and purpose of Aggregate Functions.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Aggregate Functions",
+                  "description": "Apply Aggregate Functions to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Nested Queries",
+              "description": "Prototype topic: Nested Queries",
+              "order_index": 6,
+              "competencies": [
+                {
+                  "name": "Explain Nested Queries",
+                  "description": "Explain the core concepts, terminology, and purpose of Nested Queries.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Nested Queries",
+                  "description": "Apply Nested Queries to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 3",
+          "description": "Database Management Systems \u2014 Unit 3",
+          "order_index": 3,
+          "topics": [
+            {
+              "title": "Functional Dependencies",
+              "description": "Prototype topic: Functional Dependencies",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Functional Dependencies",
+                  "description": "Explain the core concepts, terminology, and purpose of Functional Dependencies.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Functional Dependencies",
+                  "description": "Apply Functional Dependencies to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Normalization",
+              "description": "Prototype topic: Normalization",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Normalization",
+                  "description": "Explain the core concepts, terminology, and purpose of Normalization.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Normalization",
+                  "description": "Apply Normalization to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "1NF",
+              "description": "Prototype topic: 1NF",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain 1NF",
+                  "description": "Explain the core concepts, terminology, and purpose of 1NF.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply 1NF",
+                  "description": "Apply 1NF to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "2NF",
+              "description": "Prototype topic: 2NF",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain 2NF",
+                  "description": "Explain the core concepts, terminology, and purpose of 2NF.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply 2NF",
+                  "description": "Apply 2NF to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "3NF",
+              "description": "Prototype topic: 3NF",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain 3NF",
+                  "description": "Explain the core concepts, terminology, and purpose of 3NF.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply 3NF",
+                  "description": "Apply 3NF to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "BCNF",
+              "description": "Prototype topic: BCNF",
+              "order_index": 6,
+              "competencies": [
+                {
+                  "name": "Explain BCNF",
+                  "description": "Explain the core concepts, terminology, and purpose of BCNF.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply BCNF",
+                  "description": "Apply BCNF to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 4",
+          "description": "Database Management Systems \u2014 Unit 4",
+          "order_index": 4,
+          "topics": [
+            {
+              "title": "Transactions",
+              "description": "Prototype topic: Transactions",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Transactions",
+                  "description": "Explain the core concepts, terminology, and purpose of Transactions.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Transactions",
+                  "description": "Apply Transactions to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "ACID Properties",
+              "description": "Prototype topic: ACID Properties",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain ACID Properties",
+                  "description": "Explain the core concepts, terminology, and purpose of ACID Properties.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply ACID Properties",
+                  "description": "Apply ACID Properties to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Concurrency Control",
+              "description": "Prototype topic: Concurrency Control",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Concurrency Control",
+                  "description": "Explain the core concepts, terminology, and purpose of Concurrency Control.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Concurrency Control",
+                  "description": "Apply Concurrency Control to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Serializability",
+              "description": "Prototype topic: Serializability",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Serializability",
+                  "description": "Explain the core concepts, terminology, and purpose of Serializability.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Serializability",
+                  "description": "Apply Serializability to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Deadlocks",
+              "description": "Prototype topic: Deadlocks",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Deadlocks",
+                  "description": "Explain the core concepts, terminology, and purpose of Deadlocks.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Deadlocks",
+                  "description": "Apply Deadlocks to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 5",
+          "description": "Database Management Systems \u2014 Unit 5",
+          "order_index": 5,
+          "topics": [
+            {
+              "title": "Indexing",
+              "description": "Prototype topic: Indexing",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Indexing",
+                  "description": "Explain the core concepts, terminology, and purpose of Indexing.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Indexing",
+                  "description": "Apply Indexing to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "B-Trees",
+              "description": "Prototype topic: B-Trees",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain B-Trees",
+                  "description": "Explain the core concepts, terminology, and purpose of B-Trees.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply B-Trees",
+                  "description": "Apply B-Trees to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Hashing",
+              "description": "Prototype topic: Hashing",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Hashing",
+                  "description": "Explain the core concepts, terminology, and purpose of Hashing.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Hashing",
+                  "description": "Apply Hashing to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Query Processing",
+              "description": "Prototype topic: Query Processing",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Query Processing",
+                  "description": "Explain the core concepts, terminology, and purpose of Query Processing.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Query Processing",
+                  "description": "Apply Query Processing to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Database Recovery",
+              "description": "Prototype topic: Database Recovery",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Database Recovery",
+                  "description": "Explain the core concepts, terminology, and purpose of Database Recovery.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Database Recovery",
+                  "description": "Apply Database Recovery to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "AI",
+      "name": "Artificial Intelligence",
+      "description": "Prototype academic domain: Artificial Intelligence. This curriculum is editable in the seed JSON or trainer UI.",
+      "order_index": 3,
+      "is_active": true,
+      "units": [
+        {
+          "title": "Unit 1",
+          "description": "Artificial Intelligence \u2014 Unit 1",
+          "order_index": 1,
+          "topics": [
+            {
+              "title": "Introduction to Artificial Intelligence",
+              "description": "Prototype topic: Introduction to Artificial Intelligence",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Introduction to Artificial Intelligence",
+                  "description": "Explain the core concepts, terminology, and purpose of Introduction to Artificial Intelligence.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Introduction to Artificial Intelligence",
+                  "description": "Apply Introduction to Artificial Intelligence to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Intelligent Agents",
+              "description": "Prototype topic: Intelligent Agents",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Intelligent Agents",
+                  "description": "Explain the core concepts, terminology, and purpose of Intelligent Agents.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Intelligent Agents",
+                  "description": "Apply Intelligent Agents to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Problem Solving",
+              "description": "Prototype topic: Problem Solving",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Problem Solving",
+                  "description": "Explain the core concepts, terminology, and purpose of Problem Solving.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Problem Solving",
+                  "description": "Apply Problem Solving to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "State Space Representation",
+              "description": "Prototype topic: State Space Representation",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain State Space Representation",
+                  "description": "Explain the core concepts, terminology, and purpose of State Space Representation.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply State Space Representation",
+                  "description": "Apply State Space Representation to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Search Problems",
+              "description": "Prototype topic: Search Problems",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Search Problems",
+                  "description": "Explain the core concepts, terminology, and purpose of Search Problems.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Search Problems",
+                  "description": "Apply Search Problems to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 2",
+          "description": "Artificial Intelligence \u2014 Unit 2",
+          "order_index": 2,
+          "topics": [
+            {
+              "title": "Uninformed Search",
+              "description": "Prototype topic: Uninformed Search",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Uninformed Search",
+                  "description": "Explain the core concepts, terminology, and purpose of Uninformed Search.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Uninformed Search",
+                  "description": "Apply Uninformed Search to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "BFS",
+              "description": "Prototype topic: BFS",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain BFS",
+                  "description": "Explain the core concepts, terminology, and purpose of BFS.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply BFS",
+                  "description": "Apply BFS to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "DFS",
+              "description": "Prototype topic: DFS",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain DFS",
+                  "description": "Explain the core concepts, terminology, and purpose of DFS.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply DFS",
+                  "description": "Apply DFS to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Uniform Cost Search",
+              "description": "Prototype topic: Uniform Cost Search",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Uniform Cost Search",
+                  "description": "Explain the core concepts, terminology, and purpose of Uniform Cost Search.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Uniform Cost Search",
+                  "description": "Apply Uniform Cost Search to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Informed Search",
+              "description": "Prototype topic: Informed Search",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Informed Search",
+                  "description": "Explain the core concepts, terminology, and purpose of Informed Search.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Informed Search",
+                  "description": "Apply Informed Search to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "A* Algorithm",
+              "description": "Prototype topic: A* Algorithm",
+              "order_index": 6,
+              "competencies": [
+                {
+                  "name": "Explain A* Algorithm",
+                  "description": "Explain the core concepts, terminology, and purpose of A* Algorithm.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply A* Algorithm",
+                  "description": "Apply A* Algorithm to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 3",
+          "description": "Artificial Intelligence \u2014 Unit 3",
+          "order_index": 3,
+          "topics": [
+            {
+              "title": "Knowledge Representation",
+              "description": "Prototype topic: Knowledge Representation",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Knowledge Representation",
+                  "description": "Explain the core concepts, terminology, and purpose of Knowledge Representation.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Knowledge Representation",
+                  "description": "Apply Knowledge Representation to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Propositional Logic",
+              "description": "Prototype topic: Propositional Logic",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Propositional Logic",
+                  "description": "Explain the core concepts, terminology, and purpose of Propositional Logic.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Propositional Logic",
+                  "description": "Apply Propositional Logic to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Predicate Logic",
+              "description": "Prototype topic: Predicate Logic",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Predicate Logic",
+                  "description": "Explain the core concepts, terminology, and purpose of Predicate Logic.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Predicate Logic",
+                  "description": "Apply Predicate Logic to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Inference",
+              "description": "Prototype topic: Inference",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Inference",
+                  "description": "Explain the core concepts, terminology, and purpose of Inference.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Inference",
+                  "description": "Apply Inference to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Rule-Based Systems",
+              "description": "Prototype topic: Rule-Based Systems",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Rule-Based Systems",
+                  "description": "Explain the core concepts, terminology, and purpose of Rule-Based Systems.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Rule-Based Systems",
+                  "description": "Apply Rule-Based Systems to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 4",
+          "description": "Artificial Intelligence \u2014 Unit 4",
+          "order_index": 4,
+          "topics": [
+            {
+              "title": "Uncertainty in AI",
+              "description": "Prototype topic: Uncertainty in AI",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Uncertainty in AI",
+                  "description": "Explain the core concepts, terminology, and purpose of Uncertainty in AI.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Uncertainty in AI",
+                  "description": "Apply Uncertainty in AI to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Probability",
+              "description": "Prototype topic: Probability",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Probability",
+                  "description": "Explain the core concepts, terminology, and purpose of Probability.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Probability",
+                  "description": "Apply Probability to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Bayesian Reasoning",
+              "description": "Prototype topic: Bayesian Reasoning",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Bayesian Reasoning",
+                  "description": "Explain the core concepts, terminology, and purpose of Bayesian Reasoning.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Bayesian Reasoning",
+                  "description": "Apply Bayesian Reasoning to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Bayesian Networks",
+              "description": "Prototype topic: Bayesian Networks",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Bayesian Networks",
+                  "description": "Explain the core concepts, terminology, and purpose of Bayesian Networks.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Bayesian Networks",
+                  "description": "Apply Bayesian Networks to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Decision Making",
+              "description": "Prototype topic: Decision Making",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Decision Making",
+                  "description": "Explain the core concepts, terminology, and purpose of Decision Making.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Decision Making",
+                  "description": "Apply Decision Making to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 5",
+          "description": "Artificial Intelligence \u2014 Unit 5",
+          "order_index": 5,
+          "topics": [
+            {
+              "title": "Machine Learning Basics",
+              "description": "Prototype topic: Machine Learning Basics",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Machine Learning Basics",
+                  "description": "Explain the core concepts, terminology, and purpose of Machine Learning Basics.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Machine Learning Basics",
+                  "description": "Apply Machine Learning Basics to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Supervised Learning",
+              "description": "Prototype topic: Supervised Learning",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Supervised Learning",
+                  "description": "Explain the core concepts, terminology, and purpose of Supervised Learning.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Supervised Learning",
+                  "description": "Apply Supervised Learning to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Unsupervised Learning",
+              "description": "Prototype topic: Unsupervised Learning",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Unsupervised Learning",
+                  "description": "Explain the core concepts, terminology, and purpose of Unsupervised Learning.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Unsupervised Learning",
+                  "description": "Apply Unsupervised Learning to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Reinforcement Learning",
+              "description": "Prototype topic: Reinforcement Learning",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Reinforcement Learning",
+                  "description": "Explain the core concepts, terminology, and purpose of Reinforcement Learning.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Reinforcement Learning",
+                  "description": "Apply Reinforcement Learning to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "AI Applications",
+              "description": "Prototype topic: AI Applications",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain AI Applications",
+                  "description": "Explain the core concepts, terminology, and purpose of AI Applications.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply AI Applications",
+                  "description": "Apply AI Applications to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "DMS",
+      "name": "Discrete Mathematical Structures",
+      "description": "Prototype academic domain: Discrete Mathematical Structures. This curriculum is editable in the seed JSON or trainer UI.",
+      "order_index": 4,
+      "is_active": true,
+      "units": [
+        {
+          "title": "Unit 1",
+          "description": "Discrete Mathematical Structures \u2014 Unit 1",
+          "order_index": 1,
+          "topics": [
+            {
+              "title": "Set Theory",
+              "description": "Prototype topic: Set Theory",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Set Theory",
+                  "description": "Explain the core concepts, terminology, and purpose of Set Theory.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Set Theory",
+                  "description": "Apply Set Theory to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Relations",
+              "description": "Prototype topic: Relations",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Relations",
+                  "description": "Explain the core concepts, terminology, and purpose of Relations.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Relations",
+                  "description": "Apply Relations to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Functions",
+              "description": "Prototype topic: Functions",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Functions",
+                  "description": "Explain the core concepts, terminology, and purpose of Functions.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Functions",
+                  "description": "Apply Functions to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Mathematical Induction",
+              "description": "Prototype topic: Mathematical Induction",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Mathematical Induction",
+                  "description": "Explain the core concepts, terminology, and purpose of Mathematical Induction.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Mathematical Induction",
+                  "description": "Apply Mathematical Induction to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Proof Techniques",
+              "description": "Prototype topic: Proof Techniques",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Proof Techniques",
+                  "description": "Explain the core concepts, terminology, and purpose of Proof Techniques.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Proof Techniques",
+                  "description": "Apply Proof Techniques to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 2",
+          "description": "Discrete Mathematical Structures \u2014 Unit 2",
+          "order_index": 2,
+          "topics": [
+            {
+              "title": "Logic",
+              "description": "Prototype topic: Logic",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Logic",
+                  "description": "Explain the core concepts, terminology, and purpose of Logic.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Logic",
+                  "description": "Apply Logic to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Propositional Logic",
+              "description": "Prototype topic: Propositional Logic",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Propositional Logic",
+                  "description": "Explain the core concepts, terminology, and purpose of Propositional Logic.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Propositional Logic",
+                  "description": "Apply Propositional Logic to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Predicate Logic",
+              "description": "Prototype topic: Predicate Logic",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Predicate Logic",
+                  "description": "Explain the core concepts, terminology, and purpose of Predicate Logic.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Predicate Logic",
+                  "description": "Apply Predicate Logic to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Boolean Algebra",
+              "description": "Prototype topic: Boolean Algebra",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Boolean Algebra",
+                  "description": "Explain the core concepts, terminology, and purpose of Boolean Algebra.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Boolean Algebra",
+                  "description": "Apply Boolean Algebra to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Logical Equivalence",
+              "description": "Prototype topic: Logical Equivalence",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Logical Equivalence",
+                  "description": "Explain the core concepts, terminology, and purpose of Logical Equivalence.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Logical Equivalence",
+                  "description": "Apply Logical Equivalence to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 3",
+          "description": "Discrete Mathematical Structures \u2014 Unit 3",
+          "order_index": 3,
+          "topics": [
+            {
+              "title": "Counting Principles",
+              "description": "Prototype topic: Counting Principles",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Counting Principles",
+                  "description": "Explain the core concepts, terminology, and purpose of Counting Principles.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Counting Principles",
+                  "description": "Apply Counting Principles to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Permutations",
+              "description": "Prototype topic: Permutations",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Permutations",
+                  "description": "Explain the core concepts, terminology, and purpose of Permutations.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Permutations",
+                  "description": "Apply Permutations to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Combinations",
+              "description": "Prototype topic: Combinations",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Combinations",
+                  "description": "Explain the core concepts, terminology, and purpose of Combinations.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Combinations",
+                  "description": "Apply Combinations to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Pigeonhole Principle",
+              "description": "Prototype topic: Pigeonhole Principle",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Pigeonhole Principle",
+                  "description": "Explain the core concepts, terminology, and purpose of Pigeonhole Principle.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Pigeonhole Principle",
+                  "description": "Apply Pigeonhole Principle to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Recurrence Relations",
+              "description": "Prototype topic: Recurrence Relations",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Recurrence Relations",
+                  "description": "Explain the core concepts, terminology, and purpose of Recurrence Relations.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Recurrence Relations",
+                  "description": "Apply Recurrence Relations to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 4",
+          "description": "Discrete Mathematical Structures \u2014 Unit 4",
+          "order_index": 4,
+          "topics": [
+            {
+              "title": "Graph Theory",
+              "description": "Prototype topic: Graph Theory",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Graph Theory",
+                  "description": "Explain the core concepts, terminology, and purpose of Graph Theory.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Graph Theory",
+                  "description": "Apply Graph Theory to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Graph Representations",
+              "description": "Prototype topic: Graph Representations",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Graph Representations",
+                  "description": "Explain the core concepts, terminology, and purpose of Graph Representations.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Graph Representations",
+                  "description": "Apply Graph Representations to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Trees",
+              "description": "Prototype topic: Trees",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Trees",
+                  "description": "Explain the core concepts, terminology, and purpose of Trees.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Trees",
+                  "description": "Apply Trees to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Graph Traversal",
+              "description": "Prototype topic: Graph Traversal",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Graph Traversal",
+                  "description": "Explain the core concepts, terminology, and purpose of Graph Traversal.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Graph Traversal",
+                  "description": "Apply Graph Traversal to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Connectivity",
+              "description": "Prototype topic: Connectivity",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Connectivity",
+                  "description": "Explain the core concepts, terminology, and purpose of Connectivity.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Connectivity",
+                  "description": "Apply Connectivity to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 5",
+          "description": "Discrete Mathematical Structures \u2014 Unit 5",
+          "order_index": 5,
+          "topics": [
+            {
+              "title": "Algebraic Structures",
+              "description": "Prototype topic: Algebraic Structures",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Algebraic Structures",
+                  "description": "Explain the core concepts, terminology, and purpose of Algebraic Structures.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Algebraic Structures",
+                  "description": "Apply Algebraic Structures to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Groups",
+              "description": "Prototype topic: Groups",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Groups",
+                  "description": "Explain the core concepts, terminology, and purpose of Groups.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Groups",
+                  "description": "Apply Groups to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Subgroups",
+              "description": "Prototype topic: Subgroups",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Subgroups",
+                  "description": "Explain the core concepts, terminology, and purpose of Subgroups.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Subgroups",
+                  "description": "Apply Subgroups to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Rings",
+              "description": "Prototype topic: Rings",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Rings",
+                  "description": "Explain the core concepts, terminology, and purpose of Rings.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Rings",
+                  "description": "Apply Rings to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Boolean Structures",
+              "description": "Prototype topic: Boolean Structures",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Boolean Structures",
+                  "description": "Explain the core concepts, terminology, and purpose of Boolean Structures.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Boolean Structures",
+                  "description": "Apply Boolean Structures to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "MONGO",
+      "name": "Mongo DB",
+      "description": "Prototype academic domain: Mongo DB. This curriculum is editable in the seed JSON or trainer UI.",
+      "order_index": 5,
+      "is_active": true,
+      "units": [
+        {
+          "title": "Unit 1",
+          "description": "Mongo DB \u2014 Unit 1",
+          "order_index": 1,
+          "topics": [
+            {
+              "title": "Introduction to NoSQL",
+              "description": "Prototype topic: Introduction to NoSQL",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Introduction to NoSQL",
+                  "description": "Explain the core concepts, terminology, and purpose of Introduction to NoSQL.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Introduction to NoSQL",
+                  "description": "Apply Introduction to NoSQL to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "MongoDB Architecture",
+              "description": "Prototype topic: MongoDB Architecture",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain MongoDB Architecture",
+                  "description": "Explain the core concepts, terminology, and purpose of MongoDB Architecture.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply MongoDB Architecture",
+                  "description": "Apply MongoDB Architecture to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Documents and Collections",
+              "description": "Prototype topic: Documents and Collections",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Documents and Collections",
+                  "description": "Explain the core concepts, terminology, and purpose of Documents and Collections.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Documents and Collections",
+                  "description": "Apply Documents and Collections to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "BSON",
+              "description": "Prototype topic: BSON",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain BSON",
+                  "description": "Explain the core concepts, terminology, and purpose of BSON.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply BSON",
+                  "description": "Apply BSON to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "MongoDB Installation and Setup",
+              "description": "Prototype topic: MongoDB Installation and Setup",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain MongoDB Installation and Setup",
+                  "description": "Explain the core concepts, terminology, and purpose of MongoDB Installation and Setup.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply MongoDB Installation and Setup",
+                  "description": "Apply MongoDB Installation and Setup to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 2",
+          "description": "Mongo DB \u2014 Unit 2",
+          "order_index": 2,
+          "topics": [
+            {
+              "title": "CRUD Operations",
+              "description": "Prototype topic: CRUD Operations",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain CRUD Operations",
+                  "description": "Explain the core concepts, terminology, and purpose of CRUD Operations.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply CRUD Operations",
+                  "description": "Apply CRUD Operations to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Insert Operations",
+              "description": "Prototype topic: Insert Operations",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Insert Operations",
+                  "description": "Explain the core concepts, terminology, and purpose of Insert Operations.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Insert Operations",
+                  "description": "Apply Insert Operations to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Query Operations",
+              "description": "Prototype topic: Query Operations",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Query Operations",
+                  "description": "Explain the core concepts, terminology, and purpose of Query Operations.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Query Operations",
+                  "description": "Apply Query Operations to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Update Operations",
+              "description": "Prototype topic: Update Operations",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Update Operations",
+                  "description": "Explain the core concepts, terminology, and purpose of Update Operations.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Update Operations",
+                  "description": "Apply Update Operations to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Delete Operations",
+              "description": "Prototype topic: Delete Operations",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Delete Operations",
+                  "description": "Explain the core concepts, terminology, and purpose of Delete Operations.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Delete Operations",
+                  "description": "Apply Delete Operations to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 3",
+          "description": "Mongo DB \u2014 Unit 3",
+          "order_index": 3,
+          "topics": [
+            {
+              "title": "MongoDB Operators",
+              "description": "Prototype topic: MongoDB Operators",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain MongoDB Operators",
+                  "description": "Explain the core concepts, terminology, and purpose of MongoDB Operators.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply MongoDB Operators",
+                  "description": "Apply MongoDB Operators to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Comparison Operators",
+              "description": "Prototype topic: Comparison Operators",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Comparison Operators",
+                  "description": "Explain the core concepts, terminology, and purpose of Comparison Operators.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Comparison Operators",
+                  "description": "Apply Comparison Operators to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Logical Operators",
+              "description": "Prototype topic: Logical Operators",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Logical Operators",
+                  "description": "Explain the core concepts, terminology, and purpose of Logical Operators.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Logical Operators",
+                  "description": "Apply Logical Operators to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Array Operations",
+              "description": "Prototype topic: Array Operations",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Array Operations",
+                  "description": "Explain the core concepts, terminology, and purpose of Array Operations.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Array Operations",
+                  "description": "Apply Array Operations to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Projection",
+              "description": "Prototype topic: Projection",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Projection",
+                  "description": "Explain the core concepts, terminology, and purpose of Projection.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Projection",
+                  "description": "Apply Projection to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 4",
+          "description": "Mongo DB \u2014 Unit 4",
+          "order_index": 4,
+          "topics": [
+            {
+              "title": "Indexing",
+              "description": "Prototype topic: Indexing",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Indexing",
+                  "description": "Explain the core concepts, terminology, and purpose of Indexing.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Indexing",
+                  "description": "Apply Indexing to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Aggregation",
+              "description": "Prototype topic: Aggregation",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Aggregation",
+                  "description": "Explain the core concepts, terminology, and purpose of Aggregation.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Aggregation",
+                  "description": "Apply Aggregation to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Aggregation Pipeline",
+              "description": "Prototype topic: Aggregation Pipeline",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Aggregation Pipeline",
+                  "description": "Explain the core concepts, terminology, and purpose of Aggregation Pipeline.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Aggregation Pipeline",
+                  "description": "Apply Aggregation Pipeline to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Data Modeling",
+              "description": "Prototype topic: Data Modeling",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Data Modeling",
+                  "description": "Explain the core concepts, terminology, and purpose of Data Modeling.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Data Modeling",
+                  "description": "Apply Data Modeling to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Embedded Documents and References",
+              "description": "Prototype topic: Embedded Documents and References",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Embedded Documents and References",
+                  "description": "Explain the core concepts, terminology, and purpose of Embedded Documents and References.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Embedded Documents and References",
+                  "description": "Apply Embedded Documents and References to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 5",
+          "description": "Mongo DB \u2014 Unit 5",
+          "order_index": 5,
+          "topics": [
+            {
+              "title": "MongoDB Schema Design",
+              "description": "Prototype topic: MongoDB Schema Design",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain MongoDB Schema Design",
+                  "description": "Explain the core concepts, terminology, and purpose of MongoDB Schema Design.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply MongoDB Schema Design",
+                  "description": "Apply MongoDB Schema Design to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Replication",
+              "description": "Prototype topic: Replication",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Replication",
+                  "description": "Explain the core concepts, terminology, and purpose of Replication.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Replication",
+                  "description": "Apply Replication to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Sharding",
+              "description": "Prototype topic: Sharding",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Sharding",
+                  "description": "Explain the core concepts, terminology, and purpose of Sharding.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Sharding",
+                  "description": "Apply Sharding to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Transactions",
+              "description": "Prototype topic: Transactions",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Transactions",
+                  "description": "Explain the core concepts, terminology, and purpose of Transactions.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Transactions",
+                  "description": "Apply Transactions to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "MongoDB Security",
+              "description": "Prototype topic: MongoDB Security",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain MongoDB Security",
+                  "description": "Explain the core concepts, terminology, and purpose of MongoDB Security.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply MongoDB Security",
+                  "description": "Apply MongoDB Security to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BIOENG",
+      "name": "Biology for Engineers",
+      "description": "Prototype academic domain: Biology for Engineers. This curriculum is editable in the seed JSON or trainer UI.",
+      "order_index": 6,
+      "is_active": true,
+      "units": [
+        {
+          "title": "Unit 1",
+          "description": "Biology for Engineers \u2014 Unit 1",
+          "order_index": 1,
+          "topics": [
+            {
+              "title": "Introduction to Biology",
+              "description": "Prototype topic: Introduction to Biology",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Introduction to Biology",
+                  "description": "Explain the core concepts, terminology, and purpose of Introduction to Biology.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Introduction to Biology",
+                  "description": "Apply Introduction to Biology to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Cell Structure",
+              "description": "Prototype topic: Cell Structure",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Cell Structure",
+                  "description": "Explain the core concepts, terminology, and purpose of Cell Structure.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Cell Structure",
+                  "description": "Apply Cell Structure to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Cell Organelles",
+              "description": "Prototype topic: Cell Organelles",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Cell Organelles",
+                  "description": "Explain the core concepts, terminology, and purpose of Cell Organelles.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Cell Organelles",
+                  "description": "Apply Cell Organelles to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Biomolecules",
+              "description": "Prototype topic: Biomolecules",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Biomolecules",
+                  "description": "Explain the core concepts, terminology, and purpose of Biomolecules.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Biomolecules",
+                  "description": "Apply Biomolecules to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Cellular Functions",
+              "description": "Prototype topic: Cellular Functions",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Cellular Functions",
+                  "description": "Explain the core concepts, terminology, and purpose of Cellular Functions.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Cellular Functions",
+                  "description": "Apply Cellular Functions to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 2",
+          "description": "Biology for Engineers \u2014 Unit 2",
+          "order_index": 2,
+          "topics": [
+            {
+              "title": "Genetics",
+              "description": "Prototype topic: Genetics",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Genetics",
+                  "description": "Explain the core concepts, terminology, and purpose of Genetics.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Genetics",
+                  "description": "Apply Genetics to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "DNA",
+              "description": "Prototype topic: DNA",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain DNA",
+                  "description": "Explain the core concepts, terminology, and purpose of DNA.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply DNA",
+                  "description": "Apply DNA to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "RNA",
+              "description": "Prototype topic: RNA",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain RNA",
+                  "description": "Explain the core concepts, terminology, and purpose of RNA.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply RNA",
+                  "description": "Apply RNA to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Gene Expression",
+              "description": "Prototype topic: Gene Expression",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Gene Expression",
+                  "description": "Explain the core concepts, terminology, and purpose of Gene Expression.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Gene Expression",
+                  "description": "Apply Gene Expression to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Genetic Engineering",
+              "description": "Prototype topic: Genetic Engineering",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Genetic Engineering",
+                  "description": "Explain the core concepts, terminology, and purpose of Genetic Engineering.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Genetic Engineering",
+                  "description": "Apply Genetic Engineering to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 3",
+          "description": "Biology for Engineers \u2014 Unit 3",
+          "order_index": 3,
+          "topics": [
+            {
+              "title": "Biotechnology",
+              "description": "Prototype topic: Biotechnology",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Biotechnology",
+                  "description": "Explain the core concepts, terminology, and purpose of Biotechnology.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Biotechnology",
+                  "description": "Apply Biotechnology to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Recombinant DNA Technology",
+              "description": "Prototype topic: Recombinant DNA Technology",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Recombinant DNA Technology",
+                  "description": "Explain the core concepts, terminology, and purpose of Recombinant DNA Technology.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Recombinant DNA Technology",
+                  "description": "Apply Recombinant DNA Technology to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "PCR",
+              "description": "Prototype topic: PCR",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain PCR",
+                  "description": "Explain the core concepts, terminology, and purpose of PCR.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply PCR",
+                  "description": "Apply PCR to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Genetic Modification",
+              "description": "Prototype topic: Genetic Modification",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Genetic Modification",
+                  "description": "Explain the core concepts, terminology, and purpose of Genetic Modification.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Genetic Modification",
+                  "description": "Apply Genetic Modification to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Applications of Biotechnology",
+              "description": "Prototype topic: Applications of Biotechnology",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Applications of Biotechnology",
+                  "description": "Explain the core concepts, terminology, and purpose of Applications of Biotechnology.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Applications of Biotechnology",
+                  "description": "Apply Applications of Biotechnology to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 4",
+          "description": "Biology for Engineers \u2014 Unit 4",
+          "order_index": 4,
+          "topics": [
+            {
+              "title": "Biomimicry",
+              "description": "Prototype topic: Biomimicry",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Biomimicry",
+                  "description": "Explain the core concepts, terminology, and purpose of Biomimicry.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Biomimicry",
+                  "description": "Apply Biomimicry to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Biological Systems and Engineering",
+              "description": "Prototype topic: Biological Systems and Engineering",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Biological Systems and Engineering",
+                  "description": "Explain the core concepts, terminology, and purpose of Biological Systems and Engineering.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Biological Systems and Engineering",
+                  "description": "Apply Biological Systems and Engineering to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Bio-inspired Design",
+              "description": "Prototype topic: Bio-inspired Design",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Bio-inspired Design",
+                  "description": "Explain the core concepts, terminology, and purpose of Bio-inspired Design.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Bio-inspired Design",
+                  "description": "Apply Bio-inspired Design to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Artificial Organs",
+              "description": "Prototype topic: Artificial Organs",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Artificial Organs",
+                  "description": "Explain the core concepts, terminology, and purpose of Artificial Organs.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Artificial Organs",
+                  "description": "Apply Artificial Organs to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Medical Engineering",
+              "description": "Prototype topic: Medical Engineering",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Medical Engineering",
+                  "description": "Explain the core concepts, terminology, and purpose of Medical Engineering.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Medical Engineering",
+                  "description": "Apply Medical Engineering to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unit 5",
+          "description": "Biology for Engineers \u2014 Unit 5",
+          "order_index": 5,
+          "topics": [
+            {
+              "title": "Environmental Biotechnology",
+              "description": "Prototype topic: Environmental Biotechnology",
+              "order_index": 1,
+              "competencies": [
+                {
+                  "name": "Explain Environmental Biotechnology",
+                  "description": "Explain the core concepts, terminology, and purpose of Environmental Biotechnology.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Environmental Biotechnology",
+                  "description": "Apply Environmental Biotechnology to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Renewable Biological Resources",
+              "description": "Prototype topic: Renewable Biological Resources",
+              "order_index": 2,
+              "competencies": [
+                {
+                  "name": "Explain Renewable Biological Resources",
+                  "description": "Explain the core concepts, terminology, and purpose of Renewable Biological Resources.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Renewable Biological Resources",
+                  "description": "Apply Renewable Biological Resources to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Waste Treatment",
+              "description": "Prototype topic: Waste Treatment",
+              "order_index": 3,
+              "competencies": [
+                {
+                  "name": "Explain Waste Treatment",
+                  "description": "Explain the core concepts, terminology, and purpose of Waste Treatment.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Waste Treatment",
+                  "description": "Apply Waste Treatment to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Biofuels",
+              "description": "Prototype topic: Biofuels",
+              "order_index": 4,
+              "competencies": [
+                {
+                  "name": "Explain Biofuels",
+                  "description": "Explain the core concepts, terminology, and purpose of Biofuels.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Biofuels",
+                  "description": "Apply Biofuels to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            },
+            {
+              "title": "Sustainable Engineering",
+              "description": "Prototype topic: Sustainable Engineering",
+              "order_index": 5,
+              "competencies": [
+                {
+                  "name": "Explain Sustainable Engineering",
+                  "description": "Explain the core concepts, terminology, and purpose of Sustainable Engineering.",
+                  "order_index": 1
+                },
+                {
+                  "name": "Apply Sustainable Engineering",
+                  "description": "Apply Sustainable Engineering to analyse and solve an appropriate problem.",
+                  "order_index": 2
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
